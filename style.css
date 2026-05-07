@@ -1,0 +1,95 @@
+:root {
+  --ink: #001021;
+  --accent: #F2542D;
+  --neutral: #F5DFBB;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--neutral);
+  color: var(--ink);
+}
+
+header {
+  background: var(--ink);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo img {
+  width: 60px;
+  height: auto;
+}
+
+.slogan {
+  font-style: italic;
+  color: var(--neutral);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background: var(--accent);
+}
+
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background: var(--ink);
+}
+
+main {
+  padding: 20px;
+}
+
+.image-placeholder {
+  background: #ddd;
+  height: 200px;
+  margin: 15px 0;
+border: 2px dashed #999;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  background: var(--accent);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--ink);
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: var(--ink);
+  color: white;
+  margin-top: 20px;
+}
+
+footer a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
